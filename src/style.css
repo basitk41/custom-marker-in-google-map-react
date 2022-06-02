@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+
+.App-map {
+  height: 100%;
+  width: 100%;
+}
+
+.tooltip-wrap {
+  position: relative;
+}
+.tooltip-wrap .tooltip-content {
+  display: none;
+  position: absolute;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+  opacity: 0.9;
+  width: 200px;
+  z-index: 100;
+  margin: -95px 0px 0px -100px;
+  padding: 0.2em;
+  border-radius: 8px;
+  opacity: 0.8;
+  line-height: 1.2em;
+}
+.tooltip-wrap:hover .tooltip-content {
+  display: block;
+}
