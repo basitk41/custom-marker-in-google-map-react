@@ -64,7 +64,7 @@ const Test = () => {
     >
       <GoogleMap
         bootstrapURLKeys={{
-          key: "AIzaSyAGeEUT1rkoJCbpwl2pLzVaM7_04nQcZfI",
+          key: process.env.REACT_APP_GOOGLE_API_KEY,
         }}
         defaultCenter={{ lat: 24.284319, lng: 44.27684 }}
         defaultZoom={6}
